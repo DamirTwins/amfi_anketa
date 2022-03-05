@@ -57,77 +57,50 @@ header{
 
 }
 
-.logo{
-    width: 150px;
-    height: 150px;
-    margin-bottom: 50px;
-    border-radius: 100px;
-}
-
 .glava{
     text-transform: uppercase;
     text-align: center;
 }
 
-.text1{
-    width: 780px;
-    text-align: center;
-    padding-top: 10px;
-    line-height: 20px;
-    font-size: 18px;
-    margin-bottom: 50px;
+span{
+    color: #337AB7;
+    text-shadow: 5px solid #f8f4f4;
 }
 
-.button {
-    text-transform: uppercase;
-    border: 2px solid white;
-    color: white;
-    background-color: rgb(22 136 254);
-    width: 250px;
-    height: 60px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    margin-top: 25px;
-    letter-spacing: 1px;
-    font-size: 20px;
-    animation-name: animation;
-}
-
-.contact {
+.contact, .education, .experience, .skills, .language, .summary, .intern, .agree{
     width: 800px;
-    height: 430px;
+    height: 520px;
     background: #faf8f8;
     margin: 0 auto;
     border-radius: 8px;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.border{
+    width: 700px;
 }
 
 .h1 {
     width: 700px;
     height: 24px;
     line-height: 30px;
-    margin-top: 50px;
     margin-bottom: 50px;
     font-weight: bold;
 }
 
 .lich {
     font-size: 18px;
-    width: 500px;
     height: 16px;
     line-height: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
-.name-1, .name-2, .name-3 {
+.border input, .oblast, .marriage, .skills_level, .law, .porpuse {
     opacity: 0.5;
     border: 0.5px solid #AEAEAE;
     box-sizing: border-box;
@@ -138,134 +111,136 @@ header{
     padding-right: 16px;
     padding-left: 16px;
     margin-right: 10px;
+    margin-bottom: 15px;
 }
 
-.email, .adress, .id, .number, .home, .place {
-    opacity: 0.5;
-    border: 0.5px solid #AEAEAE;
-    box-sizing: border-box;
-    border-radius: 8px;
-    font-size: 14px;
-    width: 220px;
-    height: 48px;
-    padding-right: 16px;
-    padding-left: 16px;
-    margin-top: 20px;
-    margin-right: 10px;
-
+.oblast, .city, .birthday {
+    width: 170px !important; 
 }
 
-.dalee {
+.factadress, .adress{
+    width: 500px !important; 
+}
+
+.email, .cityzen{
+    width: 265px !important;
+}
+
+.education {
+    height: 370px !important;
+}
+
+.univer, .specilist, .company, .position, .adress2, .review {
+    width: 680px !important;
+}
+
+.experience {
+    height: 950px !important;
+}
+
+textarea::placeholder {
+    color: rgb(196, 189, 189);
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+.textarea{
+    padding: 15px;
+    border: #AEAEAE;
+}
+
+.textarea2{
+    width: 650px;
+    height: 100px;
+    padding: 15px;
+    border: #AEAEAE;
+}
+
+.h1_1{
+    margin-bottom: 15px;
+}
+
+.date2{
+    margin-top: 15px;
+}
+
+.name_skills{
+    width: 420px !important;
+}
+
+.name_language{
+    width: 300px !important;
+}
+
+.summary{
+    height: 350px;
+}
+
+.intern{
+    height: 200px;
+}
+
+.porpuse{
+    width: 400px;
+}
+
+.send {
     font-family: DM Serif Display;
     background-color: rgb(22 136 254);
     color: white;
     font-size: 20px;
     width: 250px;
     height: 48px;
-    margin-top: 40px;
+    margin-top: 20px;
     letter-spacing: 1px;
     border-radius: 4px;
     border: 0px solid black;
 }
 
-.experience {
-    width: 800px;
-    height: 820px;
-    background: #faf8f8;
-    margin: 0 auto;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
+.agree{
     flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.lich_exp {
-    font-size: 18px;
-    width: 500px;
-    height: 16px;
-    line-height: 18px;
-    margin-bottom: 40px;
-}
-
-.name-1-1, .name-2-2, .name-3-3, .name-4-4, .name-5-5, .name-1-1-1, .name-2-2-2{
-    opacity: 0.5;
-    border: 0.5px solid #AEAEAE;
-    box-sizing: border-box;
-    border-radius: 8px;
-    font-size: 14px;
-    height: 48px;
-    padding-right: 16px;
-    padding-left: 16px;
-    margin-right: 10px;
-}
-
-.name-1-1, .name-2-2 {
-    width: 320px;
-}
-
-.name-3-3, .name-4-4 {
-    width: 170px;
-}
-
-.name-5-5  {
-    width: 205px;
+    display: flex;
+    height: 470px;
 }
 
 .check{
-    margin-bottom: 20px;
+    width: 600px;
     text-align: left;
-    margin-left: 100px;
-}
-
-.education {
-    width: 800px;
-    height: 800px;
-    background: #faf8f8;
-    margin: 0 auto;
-    border-radius: 8px;
-    align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.name-1-1-1, .name-2-2-2{
-    width: 320px;
+.arrow-down {
+    margin: 50px;
 }
-
-.text_area{
-    margin-top: 30px;
+.arrow-down span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-bottom: 10px solid #337AB7;
+    border-right: 10px solid #337AB7;
+    transform: rotate(45deg);
+    margin: -16px;
+    animation: arrow-down 2s infinite;
 }
-
-.skills, .language {
-    width: 800px;
-    height: 650px;
-    background: #faf8f8;
-    margin: 0 auto;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.arrow-down span:nth-child(2){
+    animation-delay: -0.2s;
 }
-
-.summary {
-    width: 800px;
-    height:650px;
-    background: #faf8f8;
-    margin: 0 auto;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.arrow-down span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-down {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
 }
