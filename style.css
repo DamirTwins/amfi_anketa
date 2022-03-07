@@ -210,6 +210,13 @@ textarea::placeholder {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    position: relative;
+}
+
+.check input[type="checkbox"]{
+    position: absolute;
+    top: 5px;
+    left: -20px;
 }
 
 .arrow-down {
