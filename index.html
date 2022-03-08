@@ -47,7 +47,7 @@
                     <input class="factadress" placeholder="Фактический адрес проживания" type="text">
                     <input class="city" placeholder="Город проживания" type="text">
                     <input class="adress" placeholder="Адрес проживания по прописке" type="text">
-                    <input class="birthday" placeholder="Дата рождения" type="text">
+                    <input placeholder="Дата рождения" class="birthday" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
                     <input class="number" placeholder="Контактный номер" type="text">
                     <input class="email" placeholder="Электронный адрес" type="text">
                     <select name="vid" class="marriage">
@@ -65,8 +65,8 @@
                 <p class="lich">Сначала введите ваш последний диплом</p>
                 <input class="univer" placeholder="Учебное заведение" type="text">
                 <input class="specilist" placeholder="Специальность"type="text">
-                <input class="date" placeholder="Дата начала"type="text">
-                <input class="certificate" placeholder="Дата окончание"type="text">
+                <input placeholder="Дата начала" class="date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                <input placeholder="Дата окончание" class="date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
             </div>
         </div>
 
@@ -79,8 +79,8 @@
                 <input class="adress2" placeholder="Адрес последнего места работы" type="text">
                 <input class="review" placeholder="Контактный номер телефона с последнего места работы для получения рекомендаций" type="text">
                 <textarea class="textarea" placeholder="Основные должностные обязанности..." rows="20" cols="75"></textarea>
-                <input class="date2" placeholder="Дата начала работы"type="text">
-                <input class="certificate" placeholder="Дата увольнения"type="text">
+                <input placeholder="Дата начала работы" class="date2" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                <input placeholder="Дата увольнения" class="date2" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
                 <textarea class="textarea2" placeholder="Причина увольнения..." rows="20" cols="75"></textarea>
             </div>
         </div>
@@ -88,15 +88,14 @@
         <div class="experience">
             <div class="border">
                 <h1 class="h1_1">Расскажите нам<span> о своем опыте</span></h1>
-                <p class="lich">Начните с вашей недавной работы</p>
+                <p class="lich">Прежняя работа</p>
                 <input class="company" placeholder="Укажите название компании/организации" type="text">
                 <input class="position" placeholder="Должность" type="text">
                 <input class="adress2" placeholder="Адрес последнего места работы" type="text">
                 <input class="review" placeholder="Контактный номер телефона с последнего места работы для получения рекомендаций" type="text">
                 <textarea class="textarea" placeholder="Основные должностные обязанности..." rows="20" cols="75"></textarea>
-                <input class="date2" placeholder="Дата начала работы"type="text">
-                <input class="certificate" placeholder="Дата увольнения"type="text">
-                <textarea class="textarea2" placeholder="Причина увольнения..." rows="20" cols="75"></textarea>
+                <input placeholder="Дата начала работы" class="date2" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                <input placeholder="Дата увольнения" class="date2" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
             </div>
         </div>
 
@@ -236,17 +235,19 @@
 
         <div class="agree">
             <div class="check">
-                <input type="checkbox" checked>
+                <input class="check_box" type="checkbox" checked>
                 <label> Настоящим выражаю свое согласие на обработку (в том числе автоматизированную) моих персональных данных, указанных в анкете в целях проверки моего соответствия вакантным должностям и возможности моего трудоустройства.</label><br>
             </div>
             <div class="check">
-                <input type="checkbox" checked>
+                <input class="check_box" type="checkbox" checked>
                 <label> Настоящим подтверждаю, что мною не были намерено скрыты какие-лио сведения, которые могут отрицательно повлиять на мои шансы на трудоустройство или участие в программе. Подтверждаю, что мои ответы являются правдивыми и соответствующими действительности в максимально возможной степени. Я понимаю, что непредоставление той или иной информации, имеющей важное значение (включая предоставление каких-либо ложных сведений) в данной анкете или любом ином соответствующем документе, может стать основанием для отклонения анкеты или, в случае моего трудоустройства в эту компанию основанием для моего незамедлительного увольнения. </label>
             </div>
             <div class="border">
                 <br><a href="form1.html"><button id="download" class="send">Отправить Анкету</button></a>
                 </div>
         </div>
+
+        
 
 
 

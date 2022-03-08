@@ -251,3 +251,8 @@ textarea::placeholder {
         transform: rotate(45deg) translate(20px,20px);
     }
 }
+
+.birthday, .date, .date2, .skills_level, .oblast, .marriage, .law, .porpuse, .check_box, .send:hover{
+    cursor: pointer;
+    opacity: 0,5px;
+}
