@@ -252,7 +252,7 @@ textarea::placeholder {
     }
 }
 
-.birthday, .date, .date2, .skills_level, .oblast, .marriage, .law, .porpuse, .check_box, .specialist, .name_skills, .cityzen, .send:hover{
+.birthday, .date, .date2, .skills_level, .oblast, .marriage, .law, .porpuse, .check_box, .specialist, .cityzen, .name_skills, .send:hover{
     cursor: pointer;
     opacity: 0,5px;
 }
