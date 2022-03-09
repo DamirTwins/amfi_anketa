@@ -55,7 +55,13 @@
                         <option>Да</option>
                         <option>Нет</option>
                     </select>
-                    <input class="cityzen" placeholder="Гражданство" type="text">
+                    <select name="cityzen" class="cityzen">
+                        <option>Гражданство</option>
+                        <option>Кыргызская Республика</option>
+                        <option>Российская Федерация</option>
+                        <option>Республика Узбекистан</option>
+                        <option>Другое гражданство</option>
+                    </select>
             </div>
         </div>
 
@@ -64,7 +70,36 @@
                 <h1 class="h1">Пожалуйста, введите информацию <span>о вашем образовании</span></h1>
                 <p class="lich">Сначала введите ваш последний диплом</p>
                 <input class="univer" placeholder="Учебное заведение" type="text">
-                <input class="specilist" placeholder="Специальность"type="text">
+                <select name="specialist_level" class="specialist">
+                    <option>Специальнось</option>
+                    <option>Экономист</option>
+                    <option>Финансист</option>
+                    <option>Бухгалтер</option>
+                    <option>Юрист</option>
+                    <option>Маркетолог</option>
+                    <option>Социолог</option>
+                    <option>Другое</option>
+                </select>
+                <input placeholder="Дата начала" class="date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                <input placeholder="Дата окончание" class="date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+            </div>
+        </div>
+
+        <div class="education">
+            <div class="border">
+                <h1 class="h1">Пожалуйста, введите информацию <span>о вашем образовании</span></h1>
+                <p class="lich">Введите ваш следующий диплом</p>
+                <input class="univer" placeholder="Учебное заведение" type="text">
+                <select name="specialist_level" class="specialist">
+                    <option>Специальнось</option>
+                    <option>Экономист</option>
+                    <option>Финансист</option>
+                    <option>Бухгалтер</option>
+                    <option>Юрист</option>
+                    <option>Маркетолог</option>
+                    <option>Социолог</option>
+                    <option>Другое</option>
+                </select>
                 <input placeholder="Дата начала" class="date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
                 <input placeholder="Дата окончание" class="date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
             </div>
@@ -73,7 +108,7 @@
         <div class="experience">
             <div class="border">
                 <h1 class="h1_1">Расскажите нам<span> о своем опыте</span></h1>
-                <p class="lich">Начните с вашей недавной работы</p>
+                <p class="lich">Начните с вашей недавней работы</p>
                 <input class="company" placeholder="Укажите название компании/организации" type="text">
                 <input class="position" placeholder="Должность" type="text">
                 <input class="adress2" placeholder="Адрес последнего места работы" type="text">
@@ -99,12 +134,33 @@
             </div>
         </div>
 
+        <div class="experience">
+            <div class="border">
+                <h1 class="h1_1">Расскажите нам<span> о своем опыте</span></h1>
+                <p class="lich">Прежняя работа</p>
+                <input class="company" placeholder="Укажите название компании/организации" type="text">
+                <input class="position" placeholder="Должность" type="text">
+                <input class="adress2" placeholder="Адрес последнего места работы" type="text">
+                <input class="review" placeholder="Контактный номер телефона с последнего места работы для получения рекомендаций" type="text">
+                <textarea class="textarea" placeholder="Основные должностные обязанности..." rows="20" cols="75"></textarea>
+                <input placeholder="Дата начала работы" class="date2" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                <input placeholder="Дата увольнения" class="date2" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+            </div>
+        </div>
+
         <div class="skills">
             <div class="border">
                 <h1 class="h1_1">Расскажите нам <span>о своих навыках</span></h1>
                 <p class="lich">Начните с того, в котором вы наиболее опытны</p>
                 <form class="form">
-                    <input class="name_skills" placeholder="Навыки" type="text">
+                    <select name="name_skills" class="name_skills">
+                        <option>Выберите навыки</option>
+                        <option>Владение офисными приложениями, почтой, браузером</option>
+                        <option>Аналитические навыки, составление отчетов</option>
+                        <option>Навыки по владению специализированным программы (1С, ЗУМ, МS Team и т.д.)</option>
+                        <option>Коммуникационные навыки</option>
+                        <option>Продвижение услуг и товаров, продажи</option>
+                    </select>
                     <select name="skills_level" class="skills_level">
                         <option>Уровень владения</option>
                         <option>Высокий</option>
@@ -113,7 +169,14 @@
                     </select>
                 </form>
                 <form class="form">
-                    <input class="name_skills" placeholder="Навыки" type="text">
+                    <select name="name_skills" class="name_skills">
+                        <option>Выберите навыки</option>
+                        <option>Владение офисными приложениями, почтой, браузером</option>
+                        <option>Аналитические навыки, составление отчетов</option>
+                        <option>Навыки по владению специализированным программы (1С, ЗУМ, МS Team и т.д.)</option>
+                        <option>Коммуникационные навыки</option>
+                        <option>Продвижение услуг и товаров, продажи</option>
+                    </select>
                     <select name="vid" class="skills_level">
                         <option>Уровень владения</option>
                         <option>Высокий</option>
@@ -122,7 +185,14 @@
                     </select>
                 </form>
                 <form class="form">
-                    <input class="name_skills" placeholder="Навыки" type="text">
+                    <select name="name_skills" class="name_skills">
+                        <option>Выберите навыки</option>
+                        <option>Владение офисными приложениями, почтой, браузером</option>
+                        <option>Аналитические навыки, составление отчетов</option>
+                        <option>Навыки по владению специализированным программы (1С, ЗУМ, МS Team и т.д.)</option>
+                        <option>Коммуникационные навыки</option>
+                        <option>Продвижение услуг и товаров, продажи</option>
+                    </select>
                     <select name="vid" class="skills_level">
                         <option>Уровень владения</option>
                         <option>Высокий</option>
@@ -131,7 +201,14 @@
                     </select>
                 </form>
                 <form class="form">
-                    <input class="name_skills" placeholder="Навыки" type="text">
+                    <select name="name_skills" class="name_skills">
+                        <option>Выберите навыки</option>
+                        <option>Владение офисными приложениями, почтой, браузером</option>
+                        <option>Аналитические навыки, составление отчетов</option>
+                        <option>Навыки по владению специализированным программы (1С, ЗУМ, МS Team и т.д.)</option>
+                        <option>Коммуникационные навыки</option>
+                        <option>Продвижение услуг и товаров, продажи</option>
+                    </select>
                     <select name="vid" class="skills_level">
                         <option>Уровень владения</option>
                         <option>Высокий</option>
@@ -140,7 +217,14 @@
                     </select>
                 </form>
                 <form class="form">
-                    <input class="name_skills" placeholder="Навыки" type="text">
+                    <select name="name_skills" class="name_skills">
+                        <option>Выберите навыки</option>
+                        <option>Владение офисными приложениями, почтой, браузером</option>
+                        <option>Аналитические навыки, составление отчетов</option>
+                        <option>Навыки по владению специализированным программы (1С, ЗУМ, МS Team и т.д.)</option>
+                        <option>Коммуникационные навыки</option>
+                        <option>Продвижение услуг и товаров, продажи</option>
+                    </select>
                     <select name="vid" class="skills_level">
                         <option>Уровень владения</option>
                         <option>Высокий</option>

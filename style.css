@@ -100,7 +100,7 @@ span{
     margin-bottom: 30px;
 }
 
-.border input, .oblast, .marriage, .skills_level, .law, .porpuse {
+.border input, .oblast, .marriage, .skills_level, .law, .porpuse, .specialist, .name_skills, .cityzen  {
     opacity: 0.5;
     border: 0.5px solid #AEAEAE;
     box-sizing: border-box;
@@ -114,7 +114,7 @@ span{
     margin-bottom: 15px;
 }
 
-.oblast, .city, .birthday {
+.oblast, .city, .birthday, .specialist {
     width: 170px !important; 
 }
 
@@ -130,7 +130,7 @@ span{
     height: 370px !important;
 }
 
-.univer, .specilist, .company, .position, .adress2, .review {
+.univer, .company, .position, .adress2, .review {
     width: 680px !important;
 }
 
@@ -252,7 +252,9 @@ textarea::placeholder {
     }
 }
 
-.birthday, .date, .date2, .skills_level, .oblast, .marriage, .law, .porpuse, .check_box, .send:hover{
+.birthday, .date, .date2, .skills_level, .oblast, .marriage, .law, .porpuse, .check_box, .specialist, .name_skills, .cityzen, .send:hover{
     cursor: pointer;
     opacity: 0,5px;
 }
+
+
