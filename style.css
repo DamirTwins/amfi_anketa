@@ -302,7 +302,43 @@ textarea::placeholder {
 }
 
 @media (max-width: 800px){
-    content{
+    .container, .contact, .border, .h1{
+        width: 100%;
+    }
+    .h1, .border, .contact{
+        height: auto;
+    }
+    .oblast, .city, .birthday, .specialist{
+        width: 100% !important;
+    }
+    .border input, .oblast, .marriage, .skills_level, .law, .porpuse, .specialist, .name_skills, .cityzen{
+        width: 100% !important;
+        padding: 0 15px;
+        height: auto;
+    }
+    .border input, .oblast, .specialist, .skills_level{
+        height: 48px;
+    }
+    .contact, .education, .experience, .skills, .language, .summary, .intern, .agree{
+        width: 100%;
+        padding: 0 15px;
+        height: auto;
+    }
+    .check{
+        width: 100%;
+        padding: 0 15px;
+    }
+    textarea, .textarea2{
+        width: 100%;
+    }
+    textarea{
+        max-height: 100px;
+    }
+    .send{
+        width: 75%;
+        font-size: 14px;
+    }
+    .content{
         height: 100%;
         flex-direction: column-reverse;
     }

@@ -1,8 +1,7 @@
 
-const url = "https://script.google.com/macros/s/AKfycbxkzZE5AJry4cXomSYR8hb2cRpmqZvX6awdB5E6n2iDsptSExWmv9fEQ6edUzSvOMznFw/exec";
+const url = "https://script.google.com/macros/s/AKfycbxTKTUuJ7trkifmV_tHWaFOvtcNRanKFXfOd6yT2rxWPwg7fikBQKumv2FhXRoWnyD_Lg/exec";
 const form  = document.forms["google-sheet"];
 form.addEventListener('submit', e => { 
-   console.log("hello");
     e.preventDefault()
     fetch(url, { method: 'POST', body: new FormData(form)})
         .then(response => alert("Спасибо за участие в заполнении Анкеты!"))
@@ -17,6 +16,5 @@ function submitForm() {
     frm.reset();  // Reset
     return false; // Prevent page refresh
  }
-
 
  document.getElementById('blabla').value = ''
